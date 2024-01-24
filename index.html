@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Vaibhav Gobre - Porfolio</title>
+    <script src="https://kit.fontawesome.com/33378c3e67.js" crossorigin="anonymous"></script>
+</head> 
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="image/logo.jpg" class="logo" alt="#">
+                <ul id="sidemenu">
+                    <li><a class="link" href="#header">Home</a></li>
+                    <li><a class="link" href="#about">About</a></li>
+                    <li><a class="link" href="#services">Services</a></li>
+                    <li><a class="link" href="#portfolio">Portfolio</a></li>
+                    <li><a class="link" href="#contact">Contact</a></li>
+                    <!-- <i class="fas fa-times" onclick="closemenu()"></i> -->
+                </ul>
+                <!-- <i class="fas fa-bars" onclick="openmenu()"></i> -->
+            </nav>
+            <div class="header-text">
+                <p>Web Developer</p>
+                <h1>Hi, I'm <span>Vaibhav</span> <br>Gobre</h1>
+            </div>
+        </div>
+    </div>
+
+    <!-- ------------------about----------------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="image/user.jpg" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p class="about"> I am Vaibhav Gobre, currently pursuing a B.Tech degree in Information Technology from YCCE
+                         at Nagpur University. Proficient in Java programming and skilled in web development , 
+                         I am also actively learning React and PHP. I have a strong interest in the "learn by doing" approach, and My 
+                         GitHub showcases several projects I have worked on. During my free time, I enjoy sketching and painting. 
+                         Planning is one of my strengths as I understand the importance of considering activities necessary to achieve goals.
+                         </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link " onclick="opentab('skills')" >Skills</p>
+                        <p class="tab-links " onclick="opentab('education')">Education</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    </div>
+                     <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Web Devlopment</span><br>I'm skilled in HTML, CSS, JavaScript,React.js, Python(Flask) And Intermediate in Php.</li>
+                            <li><span>Programing Language</span><br>Java, C/C++ and Python. Generaly use Java for My Competetive Programming.</li>
+                            <li><span>FrameWork</span><br>Java Spring Boot, Bootstrap, jQuery</li>
+                            <li><span>Databases</span><br>MySql, PostgreSQL</li>
+                            <li><span>Soft Skill</span><br>Teamwork, Problem-solving, Adaptability, Critical Thinking, Conflict Resolution</li>
+                        </ul>
+                     </div>
+                     <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2020-Present</span><br>Persuning B.Tech Degree in Information Technology,YCCE.<br>CGPA - 7.67</li>
+                            <li><span>2020</span><br>HSC - Late Narayanrao Pawar Jr College  <br> Percentage : 79.23%</li>
+                            <li><span>2018</span><br>SSC - Rose Buds English School <br> Percentage :  88 .60%</li>
+                        </ul>
+                     </div>
+                     <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>Caredose Health-Tech Pvt Ltd</span><br>
+                                SDE Intern <br>
+                                  Jan 2024 – present     (Nagpur) <br>
+                                • Worked on design and development of web application using React.js and Python (Flask) <br>
+                                • Technology used: React, Python, MySql, PostgresSql, BitBucket.</li>
+                            <!-- <li><span>The Complete Android Oreo Developer</span><br>Platform - Udemy (06/2022)</li>
+                            <li><span>Java Programming: Complete Beginner to Advanced</span><br>Platform - Udemy (05/2022)</li>
+                            <li><span>Complete Python Bootcamp</span><br>Platform - Udemy (11/2021)</li> -->
+                            
+                        </ul>
+                     </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+<!-- ------------------------------services------------------------------ -->
+
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                   <div>
+                    <i class="fa-solid fa-code"></i>
+                     <h2>Website Design and Development</h2>
+                     <p>Offer custom website design and development services, creating visually appealing 
+                        and functional websites tailored to the client's needs. Mention your proficiency in 
+                        HTML, CSS, JavaScript, and any frameworks or libraries you're familiar with, such as React.</p>
+                          <a href="">learn more</a>
+                   </div> 
+                   <div>
+                    <i class="fa-solid fa-crop"></i>
+                    <h2>UI/UX Design</h2>
+                    <p>Offer UI design services, focusing on creating visually engaging and intuitive interfaces that
+                         enhance user experience. Highlight your proficiency in designing clean and modern user interfaces 
+                         using tools like Canva, Sketch, or Figma.</p>
+                         <a href="">learn more</a>
+                  </div> 
+                  <div>
+                    
+                    <i class="fa-solid fa-bug"></i>
+                    <h2>Website Maintenance and Updates</h2>
+                    <p>Offer ongoing website maintenance services, including regular updates, bug
+                         fixes, and content management, to ensure that clients' websites are up to 
+                         date and running smoothly.</p>
+                         <a href="">learn more</a>
+                  </div> 
+            </div>
+        </div>
+    </div>
+
+    <!-- -------------------------portfolio-------------------------- -->
+
+    <div id="portfolio">
+
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                    <div class="work">
+                        <img src="image/work-1.png" alt="">
+                           <div class="layer">
+                              <h3>Charity Website</h3>
+                              <p>Developed and designed the frontend of a charity website, utilizing HTML, CSS, and 
+                                JavaScript to create an engaging and user-friendly interface, effectively conveying 
+                                the organization's mission and encouraging
+                                donations and volunteer participation. <br>- HTML, CSS, JavaScript, PHP, MYSQL.
+                                </p>
+                                <a href=""><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                           </div>
+                    </div>
+                    <div class="work">
+                        <img src="image/food.jpeg" alt="">
+                        <div class="layer">
+                            <h3>Grocery Store Website</h3>
+                            <p>Built an online grocery store app utilizing HTML, CSS, and JavaScript, 
+                                offering a seamless shopping experience for customers to browse and purchase
+                                 groceries. Implemented intuitive navigation, a user-friendly interface,
+                                  and secure payment integration to optimize the process of online grocery 
+                                  shopping, ensuring convenience and customer satisfaction.</p>
+                              <a href="https://vaibhavgobre08.github.io/FruitStore/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                         </div>
+                        
+                    </div>
+                    <div class="work">
+                        <img src="image/doc.jpeg" alt="">
+                        <div class="layer">
+                            <h3>Hospital Management</h3>
+                            <p>Developed a Hospital Management project using HTML, CSS, and JavaScript, creating 
+                                a user-friendly interface for managing patient records, appointments, and medical
+                                 inventory. Implemented efficient data handling and intuitive design to streamline 
+                                 administrative tasks and enhance the overall management of the hospital.</p>
+                              <a href="https://vaibhavgobre08.github.io/Health-Street/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                         </div>
+                    </div>
+            </div>
+            <a href="project.html" class="btn">See more</a>
+
+        </div>
+    </div>
+
+    <!-- ------------------------contact---------------------------- -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                        <h1>Contact Me</h1>
+                        <p><i class="fa-solid fa-paper-plane"></i>vaibhavgobre008@gmail.com</p>
+                        <p><i class="fa-solid fa-phone"></i>+91-9850669912</p>
+                        <div class="social-icons">
+
+                        <a href="https://www.instagram.com/vaibhavgobre/"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://twitter.com/VaibhavGobre?t=uh9WtHBxnV4iKxfz-mLOng&s=09"><i class="fa-brands fa-square-twitter"></i></a>
+                        <a href="https://github.com/VaibhavGobre08"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/vaibhav-gobre-0a9b78214"><i class="fa-brands fa-linkedin"></i></a>
+                   
+                </div>
+
+                <a href="https://drive.google.com/file/d/1K95x03z1xUPkFXqZlfq8Woxp4o5GKY24/view?usp=drive_link" download class="btn btn2" >Download CV</a>
+            </div>
+                <div class="contact-right">
+                    <form onsubmit="sendEmail(); reset(); return false;">
+                        <input type="text" name="Name" id="username"placeholder="Your Name" required>
+                        <input type="email" name="email" id="email" placeholder="Your Email" required>
+                        <textarea name="Message" id="message" rows="3" placeholder="Your message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                </div>
+            
+        </div>
+    </div>
+   <div class="copyright">
+    <p>Copyright @vaibhavgobre.</p>
+   </div>
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    
+        function opentab(tabname) {
+            for(tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+
+</script>
+<script src="https://smtpjs.com/v3/smtp.js">
+</script>
+<script>
+    function sendEmail() {
+
+    var userName = document.getElementById('username').value;
+    var email = document.getElementById('email').value;
+    var message = document.getElementById('message').value;
+
+    var messageBody = "Name : "+ userName +
+                      "<br/> Email : "+ email +
+                      "<br/> Message : " + message ; 
+    Email.send({
+    Host : "smtp.elasticemail.com",
+    Username : "vaibhavportfolio08@gmail.com",
+    Password : "0CBD9681A99FBFE6BB85D51FE9E51481939B",
+    Message : "massage",
+    To : 'vaibhavgobre008@gmail.com',
+    From : "vaibhavportfolio08@gmail.com",
+    Subject : "This is the subject",
+    Body : messageBody
+}).then(
+  message => alert(message)
+);
+}
+        
+    
+</script>
+</body>
+
+</html>
